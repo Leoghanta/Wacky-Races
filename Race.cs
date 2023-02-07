@@ -13,7 +13,7 @@ namespace Wacky_Races
 	/// </summary>
 	internal class Race
 	{
-		Car[] Carlist = new Car[12];
+		Car[] Carlist = new Car[11];
 		int TrackLength = 500;
 
 		/// <summary>
@@ -33,7 +33,6 @@ namespace Wacky_Races
 			Carlist[8] = new Car("The Arkansas Chug-a-bug", "Lazy Luke and Blubber Bear", "08", ConsoleColor.Blue, 18);
 			Carlist[9] = new Car("The Turbo Terrific", "Peter Perfect", "09", ConsoleColor.Yellow, 20);
 			Carlist[10] = new Car("The Buzzwagon", "Rufus Ruffcut and Sawtooth", "10", ConsoleColor.Cyan, 19);
-			Carlist[11] = new Car("The Bestest", "Jimi The Awesome", "22", ConsoleColor.White, 25);
 
 		}
 
